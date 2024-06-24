@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Rodi26_pytest_example_1719230214265-pr-trigger-input-set
+  identifier: Build_Rodi26_pytest_example_1719230214265prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Rodi26_pytest_example_1719230214265
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
